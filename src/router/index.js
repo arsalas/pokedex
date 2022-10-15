@@ -20,7 +20,7 @@ const routes = [
 // keep it simple for now.
 const router = createRouter({
     history: createWebHistory(),
-    // base: process.env.BASE_URL,
+    base: process.env.NODE_ENV === 'production' ? '/pokedex/' : '/',
     routes,
 })
 
