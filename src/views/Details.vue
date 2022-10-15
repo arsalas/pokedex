@@ -74,7 +74,6 @@ watch(() => route.params.id, newValue => {
 const loadDetails = async () => {
     pokemon.value = await getPokemonDetails(route.params.id);
     color.value = await getColorByImage(getPokemonImage(pokemon.value.id))
-    console.log(pokemon.value)
     isLoading.value = false;
 }
 

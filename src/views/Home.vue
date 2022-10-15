@@ -22,16 +22,9 @@ import Loading from '../components/Loading.vue';
 const pokemons = ref([]);
 const isLoading = ref(true);
 
-onUpdated(() => {
-    console.log('componente actualizado')
-})
-onUnmounted(() => {
-    console.log('componente detruido')
-})
 
 
 onMounted(async () => {
-    console.log('montado')
     const res = await getPokemons();
     isLoading.value = false;
     pokemons.value = res.results;
