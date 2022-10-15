@@ -20,7 +20,7 @@ const routes = [
 // keep it simple for now.
 const router = createRouter({
     history: createWebHistory(),
-    base: 'https://arsalas.github.io/pokedex/',
+    // base: process.env.BASE_URL,
     routes,
 })
 
