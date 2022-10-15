@@ -78,7 +78,7 @@ const loadDetails = async () => {
 }
 
 onMounted(async () => {
-    if (route.params.id > limitPokemons) {
+    if (route.params.id > limitPokemons || isNaN(route.params.id)) {
         router.push({ name: 'home' })
     }
     loadDetails()
