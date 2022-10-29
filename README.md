@@ -1,7 +1,17 @@
-# Vue 3 + Vite
+# Pokedex
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Install
+```sh
+yarn
+```
 
-## Recommended IDE Setup
+## Run
+```sh
+yarn dev
+```
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+## Description 
+A simple pokedex with vue and [pokeapi](https://pokeapi.co/)
+
+## Imagenes
+![Pokedex](https://raw.githubusercontent.com/arsalas/pokedex/main/pokedex.png?token=GHSAT0AAAAAABY63AQHW2ISFPMUMJVOFIZWY25VDQQ)
