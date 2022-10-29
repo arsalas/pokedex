@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory, createMemoryHistory } from 'vue-router'
+import { createRouter, createWebHashHistory, createMemoryHistory } from 'vue-router'
 
 
 const routes = [
@@ -19,7 +19,7 @@ const routes = [
 // You can pass in additional options here, but let's
 // keep it simple for now.
 const router = createRouter({
-    history: createWebHistory(import.meta.env.BASE_URL),
+    history: createWebHashHistory(import.meta.env.BASE_URL),
     routes,
 })
 
