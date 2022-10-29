@@ -324,6 +324,11 @@ has@^1.0.3:
   dependencies:
     function-bind "^1.1.1"
 
+infinite-loading-vue3@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/infinite-loading-vue3/-/infinite-loading-vue3-1.0.1.tgz#b790b569c27177dddd1fa8a143651581922393fb"
+  integrity sha512-3akMDvIMUv2Vsyt/HY+peLGVg3R/vozrLEv8Hz3EmoB/GQX2fdjzTmMKUPKrytBizAbA36UKI0yRJ2Ej3w8Ebw==
+
 is-core-module@^2.9.0:
   version "2.10.0"
   resolved "https://registry.yarnpkg.com/is-core-module/-/is-core-module-2.10.0.tgz#9012ede0a91c69587e647514e1d5277019e728ed"

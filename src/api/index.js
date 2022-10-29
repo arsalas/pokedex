@@ -6,8 +6,8 @@ const pokeApi = axios.create({
     timeout: 3000
 });
 
-export const getPokemons = async () => {
-    const response = await pokeApi.get('pokemon?limit=' + limitPokemons);
+export const getPokemons = async (page = 0) => {
+    const response = await pokeApi.get(`pokemon?limit=${limitPokemons}&offset=${page * limitPokemons}`);
     return response.data;
 }
 

@@ -1,2 +1,2 @@
 
-export const limitPokemons = 251;
+export const limitPokemons = 30;
