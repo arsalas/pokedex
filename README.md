@@ -13,7 +13,7 @@ yarn dev
 ## Description 
 A simple pokedex with vue and [pokeapi](https://pokeapi.co/)
 
-## Imagenes
+## Images
 ![Pokedex](https://raw.githubusercontent.com/arsalas/pokedex/main/pokedex.png)
 
 ![Pokedex](https://raw.githubusercontent.com/arsalas/pokedex/main/pokedex_details.png)
